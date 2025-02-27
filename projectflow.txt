@@ -7,3 +7,7 @@
 7. run "dvc add data/"
    now it will ask to do: ("git rm -r --cached 'data'" and "git commit -m "stop tracking data"")
 8. again do dvc add data/ (creates data.dvc) then "git add .gitignore data.dvc"
+9. run dvc commit and dvc push
+   using this data will be saved in s3 folder with 2 files raw data and id of that version
+   now push the changes to origin
+10. add new rows in the data in mycode.py and check dvc status. 

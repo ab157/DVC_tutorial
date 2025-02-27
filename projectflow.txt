@@ -1,0 +1,4 @@
+1. create a git repo and clone it to local
+2. create a mycode.py and all code to it.(it will save csv file into a new data folder)
+3. pip install dvc
+4. now we do dvc init (creates dvc.ignore, .dvc)
